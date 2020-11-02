@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0
+}
+
+.App {
+  display: flex;
+  font-family: sans-serif;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ 
+}
+
+.App h1 {
+  margin: 10px;
+  color: wheat
+}
+
+.Volume{
+  width: 100%;
+  margin-top: 50%;
+  /* display: flex; */
+/*   
+  justify-content: center;
+  align-content: center; */
+  border-radius: 20px;
+}
+
+input{
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  outline:none;
+
+}
+button{
+  
+  border: 1px solid white;
+  margin: 3px;
+  text-decoration: none;
+  outline:none;
+  background-color: black;
+  color: white;
+  width: 1.5rem;
+  text-align: center;
+  justify-content: center;
+  align-content: center
+}
+button:hover{
+  background-color: wheat;
+  color: black;
+  border: 1px solid black;
+  margin-top: 100px
+}
+input:hover{
+  
+  margin-bottom: 300px
+}
